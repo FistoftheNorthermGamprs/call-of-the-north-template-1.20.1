@@ -1,5 +1,8 @@
 package net.david.call_of_the_north;
 
+import net.david.call_of_the_north.block.ModBlocks;
+import net.david.call_of_the_north.item.ModItemGroups;
+import net.david.call_of_the_north.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,10 @@ public class CallOfTheNorth implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 
 		LOGGER.info("Hello Fabric world!");
 	}

@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "call-of-the-north",
+	"id": "call_of_the_north",
 	"version": "${version}",
 	"name": "Call of the North",
 	"description": "Pure Epicness",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/call-of-the-north/icon.png",
+	"icon": "assets/call_of_the_north/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -26,7 +26,7 @@
 		]
 	},
 	"mixins": [
-		"call-of-the-north.mixins.json"
+		"call_of_the_north.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.7",

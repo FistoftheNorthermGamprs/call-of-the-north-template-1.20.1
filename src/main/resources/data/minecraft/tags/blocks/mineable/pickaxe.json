@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "call_of_the_north:ancient_crystal_ore",
+    "call_of_the_north:deepslate_ancient_crystal_ore",
+    "call_of_the_north:end_stone_ancient_crystal_ore"
+  ]
+}

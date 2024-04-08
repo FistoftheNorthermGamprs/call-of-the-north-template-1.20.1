@@ -1,0 +1,16 @@
+{
+  "item.call_of_the_north.fur": "Fur",
+  "item.call_of_the_north.ore_compass": "Ore Compass",
+  "item.call_of_the_north.eye_of_illusion": "Eye of Illusions",
+  "item.call_of_the_north.ancient_crystal": "Ancient Crystal",
+  "item.call_of_the_north.energized_ancient_crystal": "Energized Ancient Crystal",
+  "block.call_of_the_north.ancient_crystal_ore": "Ancient Crystal Ore",
+  "block.call_of_the_north.deepslate_ancient_crystal_ore": "Deepslate Ancient Crystal Ore",
+  "block.call_of_the_north.end_stone_ancient_crystal_ore": "End Stone Ancient Crystal Ore",
+
+
+
+
+  "itemgroup.northern": "Custom Northern Item Group"
+
+}

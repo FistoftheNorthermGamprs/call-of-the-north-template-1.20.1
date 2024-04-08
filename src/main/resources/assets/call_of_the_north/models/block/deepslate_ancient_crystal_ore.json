@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "call_of_the_north:block/deepslate_ancient_crystal_ore"
+  }
+}
