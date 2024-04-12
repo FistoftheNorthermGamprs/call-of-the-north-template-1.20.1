@@ -14,6 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item FUR = registerItem("fur", new Item(new FabricItemSettings()));
     public static final Item EYE_OF_ILLUSION = registerItem("eye_of_illusion", new Item(new FabricItemSettings()));
+    public static final Item FREEZE_BERRIES = registerItem("freeze_berries", new Item(new FabricItemSettings().food(ModFoodComponents.FREEZE_BERRIES)));
 
     public static final Item ORE_COMPASS = registerItem("ore_compass", new OreCompassItem(new FabricItemSettings().maxDamage(20)));
 

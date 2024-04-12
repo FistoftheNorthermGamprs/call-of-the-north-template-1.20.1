@@ -17,6 +17,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.northern"))
                     .icon(() -> new ItemStack(ModItems.FUR)).entries((displayContext, entries) -> {
                         entries.add(ModItems.FUR);
+                        entries.add(ModItems.FREEZE_BERRIES);
                         entries.add(ModItems.ORE_COMPASS);
                         entries.add(ModItems.EYE_OF_ILLUSION);
                         entries.add(ModItems.ANCIENT_CRYSTAL);

@@ -1,6 +1,6 @@
 package net.david.call_of_the_north;
 
-import net.david.call_of_the_north.datagen.ModWorldGenerator;
+import net.david.call_of_the_north.datagen.*;
 import net.david.call_of_the_north.world.ModConfiguredFeatures;
 import net.david.call_of_the_north.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -14,6 +14,13 @@ public class CallOfTheNorthDataGenerator implements DataGeneratorEntrypoint {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModWorldGenerator::new);
+		pack.addProvider(ModBlockTagProvider::new);
+		pack.addProvider(ModItemTagProvider::new);
+		pack.addProvider(ModLootTableProvider::new);
+		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModRecipeProvider::new);
+
+
 
 	}
 

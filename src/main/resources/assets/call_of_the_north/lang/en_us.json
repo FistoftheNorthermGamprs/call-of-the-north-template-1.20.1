@@ -1,5 +1,6 @@
 {
   "item.call_of_the_north.fur": "Fur",
+  "item.call_of_the_north.freeze_berries": "Freeze Berries",
   "item.call_of_the_north.ore_compass": "Ore Compass",
   "item.call_of_the_north.eye_of_illusion": "Eye of Illusions",
   "item.call_of_the_north.ancient_crystal": "Ancient Crystal",
@@ -10,7 +11,12 @@
 
 
 
+  "tooltip.call_of_the_north.ore_compass.tooltip": "Finds valuables (Iron, redtsone, diamonds and gold) under the block right-clicked on",
+
+
+
 
   "itemgroup.northern": "Custom Northern Item Group"
+
 
 }
