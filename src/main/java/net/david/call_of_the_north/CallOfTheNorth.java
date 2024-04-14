@@ -3,6 +3,7 @@ package net.david.call_of_the_north;
 import net.david.call_of_the_north.block.ModBlocks;
 import net.david.call_of_the_north.item.ModItemGroups;
 import net.david.call_of_the_north.item.ModItems;
+import net.david.call_of_the_north.util.ModLootTableModifiers;
 import net.david.call_of_the_north.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
@@ -19,6 +20,8 @@ public class CallOfTheNorth implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
+
+		ModLootTableModifiers.modifyLootTables();
 
 		LOGGER.info("Hello Fabric world!");
 
