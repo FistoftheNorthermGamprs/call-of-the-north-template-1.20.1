@@ -4,6 +4,7 @@ import net.david.call_of_the_north.block.ModBlocks;
 import net.david.call_of_the_north.effect.ModEffects;
 import net.david.call_of_the_north.item.ModItemGroups;
 import net.david.call_of_the_north.item.ModItems;
+import net.david.call_of_the_north.potion.ModPotions;
 import net.david.call_of_the_north.util.ModLootTableModifiers;
 import net.david.call_of_the_north.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
@@ -25,6 +26,7 @@ public class CallOfTheNorth implements ModInitializer {
 		ModLootTableModifiers.modifyLootTables();
 
 		ModEffects.registerEffects();
+		ModPotions.registerPotions();
 
 		LOGGER.info("Hello Fabric world!");
 

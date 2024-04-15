@@ -15,6 +15,12 @@
 
   "effect.call_of_the_north.frostbite": "Frostbite",
 
+  "item.minecraft.potion.effect.frostbite_potion": "Frostbite Potion",
+  "item.minecraft.splash_potion.effect.frostbite_potion": "Splash Potion of Frostbite",
+  "item.minecraft.lingering_potion.effect.frostbite_potion": "Lingering Potion of Frostbite",
+
+
+
 
 
   "itemgroup.northern": "Custom Northern Item Group"
