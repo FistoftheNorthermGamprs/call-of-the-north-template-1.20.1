@@ -1,10 +1,13 @@
 package net.david.call_of_the_north.item;
 
 import net.david.call_of_the_north.CallOfTheNorth;
+import net.david.call_of_the_north.block.ModBlocks;
 import net.david.call_of_the_north.item.custom.OreCompassItem;
+import net.david.call_of_the_north.item.custom.TranquilizingFluteItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -20,6 +23,14 @@ public class ModItems {
 
     public static final Item ANCIENT_CRYSTAL = registerItem("ancient_crystal", new Item(new FabricItemSettings()));
     public static final Item ENERGIZED_ANCIENT_CRYSTAL = registerItem("energized_ancient_crystal", new Item(new FabricItemSettings()));
+
+    public static final Item TRANQUILIZING_FLUTE = registerItem("tranquilizing_flute", new TranquilizingFluteItem(new FabricItemSettings()));
+
+
+    public static final Item TOBACCO_SEEDS = registerItem("tobacco_seeds",
+            new AliasedBlockItem(ModBlocks.TOBACCO_CROP, new FabricItemSettings()));
+    public static final Item TOBACCO_LEAF = registerItem("tobacco_leaf",
+            new Item(new FabricItemSettings()));
 
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {

@@ -21,7 +21,10 @@ public class ModItemGroups {
                         entries.add(ModItems.ORE_COMPASS);
                         entries.add(ModItems.EYE_OF_ILLUSION);
                         entries.add(ModItems.ANCIENT_CRYSTAL);
+                        entries.add(ModItems.TOBACCO_LEAF);
+                        entries.add(ModItems.TOBACCO_SEEDS);
                         entries.add(ModItems.ENERGIZED_ANCIENT_CRYSTAL);
+                        entries.add(ModItems.TRANQUILIZING_FLUTE);
                         entries.add(ModBlocks.ANCIENT_CRYSTAL_ORE);
                         entries.add(ModBlocks.DEEPSLATE_ANCIENT_CRYSTAL_ORE);
                         entries.add(ModBlocks.END_STONE_ANCIENT_CRYSTAL_ORE);
