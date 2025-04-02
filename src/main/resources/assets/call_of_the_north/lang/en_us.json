@@ -1,9 +1,14 @@
 {
   "item.call_of_the_north.fur": "Fur",
   "item.call_of_the_north.freeze_berries": "Freeze Berries",
+
   "item.call_of_the_north.ore_compass": "Ore Compass",
+
   "item.call_of_the_north.tobacco_seeds": "Tobacco Seeds",
   "item.call_of_the_north.tobacco_leaf": "Tobacco Leaf",
+  "item.call_of_the_north.cigar": "Cigar",
+
+
   "item.call_of_the_north.eye_of_illusion": "Eye of Illusions",
   "item.call_of_the_north.ancient_crystal": "Ancient Crystal",
   "item.call_of_the_north.energized_ancient_crystal": "Energized Ancient Crystal",
@@ -23,7 +28,7 @@
   "item.minecraft.lingering_potion.effect.frostbite_potion": "Lingering Potion of Frostbite",
 
 
-
+  "sounds.call_of_the_north.tranquilizing_flute_shot": "Tranquilizing Flute Melody",
 
 
   "itemgroup.northern": "Custom Northern Item Group"

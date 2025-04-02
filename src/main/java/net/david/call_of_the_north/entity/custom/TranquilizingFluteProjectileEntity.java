@@ -6,6 +6,7 @@ import net.david.call_of_the_north.effect.ModEffects;
 import net.david.call_of_the_north.entity.ModEntities;
 import net.david.call_of_the_north.item.ModItems;
 import net.minecraft.block.BlockState;
+import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
@@ -17,6 +18,7 @@ import net.minecraft.item.Item;
 import net.minecraft.network.listener.ClientPlayPacketListener;
 import net.minecraft.network.packet.Packet;
 import net.minecraft.network.packet.s2c.play.EntitySpawnS2CPacket;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.hit.EntityHitResult;
 import net.minecraft.world.World;
 
@@ -39,6 +41,7 @@ public class TranquilizingFluteProjectileEntity extends ThrownItemEntity {
         return new EntitySpawnS2CPacket(this);
     }
 
+    private static final Identifier TEXTURE = new Identifier("call_of_the_north", "textures/entity/note.png");
 
 
     @Override

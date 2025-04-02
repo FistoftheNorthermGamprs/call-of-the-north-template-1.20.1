@@ -45,6 +45,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter,new Identifier(getRecipeName(ModItems.ORE_COMPASS)));
 
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.CIGAR, 2)
+                .pattern("PPP")
+                .pattern("TTT")
+                .pattern("PPP")
+                .input('T', ModItems.TOBACCO_LEAF)
+                .input('P', Items.PAPER)
+                .criterion(hasItem(Items.PAPER), conditionsFromItem(Items.PAPER))
+                .criterion(hasItem(ModItems.TOBACCO_LEAF), conditionsFromItem(ModItems.TOBACCO_LEAF))
+                .offerTo(exporter,new Identifier(getRecipeName(ModItems.CIGAR)));
+
+
 
 
 

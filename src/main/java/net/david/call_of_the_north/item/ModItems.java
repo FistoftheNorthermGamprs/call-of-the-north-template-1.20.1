@@ -32,6 +32,9 @@ public class ModItems {
     public static final Item TOBACCO_LEAF = registerItem("tobacco_leaf",
             new Item(new FabricItemSettings()));
 
+    public static final Item CIGAR = registerItem("cigar", new Item(new FabricItemSettings().food(ModFoodComponents.CIGAR)));
+
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(FUR);

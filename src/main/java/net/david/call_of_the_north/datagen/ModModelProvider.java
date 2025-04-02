@@ -38,6 +38,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TRANQUILIZING_FLUTE, Models.GENERATED);
 
         itemModelGenerator.register(ModItems.TOBACCO_LEAF, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CIGAR, Models.GENERATED);
 
 
 

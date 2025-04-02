@@ -1,6 +1,7 @@
 package net.david.call_of_the_north.item.custom;
 
 import net.david.call_of_the_north.entity.custom.TranquilizingFluteProjectileEntity;
+import net.david.call_of_the_north.sound.ModSounds;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.projectile.thrown.SnowballEntity;
 import net.minecraft.item.Item;
@@ -19,7 +20,7 @@ public class TranquilizingFluteItem extends Item {
 
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
         ItemStack itemStack = user.getStackInHand(hand);
-        world.playSound((PlayerEntity)null, user.getX(), user.getY(), user.getZ(), SoundEvents.ENTITY_SNOWBALL_THROW, SoundCategory.NEUTRAL, 0.5F, 0.4F / (world.getRandom().nextFloat() * 0.4F + 0.8F));
+        world.playSound((PlayerEntity)null, user.getX(), user.getY(), user.getZ(), ModSounds.TRANQUILIZING_FLUTE_SHOT, SoundCategory.NEUTRAL, 0.5F, 0.4F / (world.getRandom().nextFloat() * 0.4F + 0.8F));
         if (!world.isClient) {
             TranquilizingFluteProjectileEntity tranquilizingFluteProjectileEntity = new TranquilizingFluteProjectileEntity(user, world);
             tranquilizingFluteProjectileEntity.setItem(itemStack);

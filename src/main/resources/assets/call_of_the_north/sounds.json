@@ -1,0 +1,9 @@
+{
+  "tranquilizing_flute_shot": {
+    "subtitle": "sounds.call_of_the_north.tranquilizing_flute_shot",
+    "sounds": [
+      "call_of_the_north:tranquilizing_flute_shot",
+      "call_of_the_north:tranquilizing_flute_shot2"
+    ]
+  }
+}
